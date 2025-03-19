@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    container_name: telegram-game-bot
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+    environment:
+      - TELEGRAM_BOT_TOKEN=7632830310:AAE2jizmlLeRspKU7mhVRpkfTsMRdS72yPM 
