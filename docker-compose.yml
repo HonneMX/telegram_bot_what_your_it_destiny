@@ -8,4 +8,4 @@ services:
     volumes:
       - ./logs:/app/logs
     environment:
-      - TELEGRAM_BOT_TOKEN=7632830310:AAE2jizmlLeRspKU7mhVRpkfTsMRdS72yPM 
+      - TELEGRAM_BOT_TOKEN=сюда укажи свой токен
